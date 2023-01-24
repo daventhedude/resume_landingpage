@@ -309,8 +309,8 @@ button.navbar-toggle.collapsed {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    padding: 10% 0;
-    background-color: #8c909a;
+    padding: 13% 0px 0px 0px;
+    background-color: #1a1b1c;
     mix-blend-mode: hard-light;
 }
 
