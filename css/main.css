@@ -1185,6 +1185,19 @@ footer a:visited footer a:focus {
     color: #149cab;
     border: 0;
 }
+/*/ start certificates /*/
+#certificates {
+    margin-top: 20px;
+    text-align: center;
+}
+.certificate-item {
+    margin-top: 20px;
+}
+.certificate-item .fas {
+    color: #149cab;
+    margin-bottom: 10px;
+}
+/*/ end certificates /*/
 
 /*/ end cookie notice /*/
 
