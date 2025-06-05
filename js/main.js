@@ -115,21 +115,6 @@ jQuery.noConflict();
             }
         );
     });
-})(jQuery);
-
-// stop youtube video on mouseout
-var appearances_item_flag = document.querySelector('.js-flag');
-appearances_item_flag.addEventListener('mouseout', function(evt) {
-    var youtube_vid_flag = document.getElementById('youtube').src;
-    var cleaned_flag = youtube_vid_flag.replace('&autoplay=1', '');
-    document.getElementById('youtube').src = cleaned_flag;
-});
-
-// stop youtube video on mouseout
-var appearances_item_sherpany = document.querySelector('.js-sherpany');
-appearances_item_sherpany.addEventListener('mouseout', function(evt) {
-    var youtube_vid_sherpany = document.getElementById('youtubeSherpany').src;
-    var cleaned_sherpany = youtube_vid_sherpany.replace('&autoplay=1', '');
     document.getElementById('youtubeSherpany').src = cleaned_sherpany;
 });
 
@@ -169,4 +154,4 @@ var today = new Date();
 var year = today.getFullYear();
 
 var copyright = document.getElementById('copyright');
-copyright.innerHTML = '© Marina Marques ' + year;
+copyright.innerHTML = '© Daven Niemann ' + year;
